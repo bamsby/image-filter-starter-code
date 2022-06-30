@@ -17,7 +17,7 @@ import {filterImageFromURL, deleteLocalFiles} from './util/util';
     let { image_url } = req.query;
     if ( !image_url ) {
       return res.status(400).send("image_url is required");
-    }    
+    }
     filterImageFromURL(image_url)
       .then(imagePath => {
         return res.status(200).sendFile(imagePath, err => {
