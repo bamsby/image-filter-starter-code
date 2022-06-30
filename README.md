@@ -34,4 +34,4 @@ Follow the process described in the course to `eb init` a new application and `e
 
 ### Access Endpoint
 
-URl to deployed service in Elastic Beanstalk:http://image-filter-starter-code-dev3.us-east-1.elasticbeanstalk.com/filteredimage?image_url=https://picsum.photos/200/300.jpg
+URl to deployed service in Elastic Beanstalk:http://image-filter-dev.us-east-1.elasticbeanstalk.com/filteredimage?image_url=https://picsum.photos/200/300.jpg
